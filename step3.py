@@ -47,7 +47,7 @@ grid = np.array([[5,4,1,2,8,7,0,0,3]
 
 
 def compare_boards(old_board,new_board):
-    return (old_board == new_board).all()
+    return (old_board == new_board).all() 
 
 # grid_solved = np.array([[5,4,1,2,8,7,6,9,3],
 #  [2,3,6,1,4,9,5,7,8],
